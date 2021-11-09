@@ -1,0 +1,276 @@
+
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .banner{
+        height: auto;
+    }
+    .banner-content{
+        padding: 44px 0;
+    }
+    .banner .banner-content h1{
+        font-size: 42px;
+    }
+    .banner .banner-content p{
+        font-size: 18px;
+    }
+    .banner .banner-content button{
+        padding: 12px 40px;
+        font-size: 16px;
+    }
+    .description .col-md-12{
+        padding: 0;
+    }
+    .description{
+        padding: 40px 0;
+    }
+    .feature-1{
+        padding: 60px 0;
+    }
+    .feature-1 .col-md-6{
+        width: 100%;
+    }
+    .feature-1-content{
+        padding: 40px 0;
+        text-align: center;
+    }
+    .feature-2{
+        padding: 40px 0;
+    }
+    .feature-2 .row{
+        height: auto;
+        align-items: none;
+        flex-direction: column-reverse;
+    }
+    .feature-2 .col-md-6{
+        width: 100%;
+    }
+    .feature-2-content{
+        text-align: center;
+        padding: 40px 0;
+    }
+    .Statistics{
+        padding: 60px 0;
+    }
+    .circle-item{
+        padding: 40px 0;
+    }
+    .Statistics .no-1{
+        width: 200px;
+        height: 200px;
+    }
+    .Statistics .no-1 h1{
+        font-size: 40px;
+    }
+    .Statistics .no-1 p{
+        font-size: 20px;
+    }
+    .feature-3{
+        padding: 60px 0;
+    }
+    .feature-3 .package .col-md-4{
+        padding: 0;
+    }
+    .feature-3 .package .col-md-4 .card{
+        padding: 0;
+        margin-top: 30px;
+    }
+    .feature-3 .package .col-md-4 .card-header h1{
+        font-size: 25px;
+    }
+    .feature-3 .package .col-md-4 .card-body .package-content .disc{
+        padding: 0;
+    }
+    .feature-3 .package .col-md-4 .card-footer button{
+        font-size: 16px;
+        padding: 10px 38px;
+    }
+    .about-us .row{
+        height: 50vh;
+    }
+    .subscribe .row{
+        height: auto;
+        padding: 70px 0;
+    }
+    .subscribe .content h1{
+        font-size: 45px;
+    }
+    .end-section{
+        padding: 70px 0;
+    }
+    .end-section .icon-item p{
+        font-size: 15px;
+    }
+    .end-section .list-item-1 ul li a{
+        line-height: 35px;
+        font-size: 15px;
+    }
+    .end-section .list-item-2 ul li a{
+        line-height: 35px;
+        font-size: 15px;
+    }
+    .end-section .list-item-3 ul li a{
+        line-height: 35px;
+        font-size: 15px;
+    }
+    .end-section .list-item-1 h1{
+        font-size: 25px;
+    }
+    .end-section .list-item-2 h1{
+        font-size: 25px;
+    }
+    .end-section .list-item-3 h1{
+        font-size: 25px;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .navbar-brand img{
+        width: 60px;
+    }
+    .banner{
+        height: auto;
+        text-align: center;
+    }
+    .banner .banner-content h1{
+        font-size: 45px;
+    }
+    .banner-content{
+        padding: 50px 0;
+    }
+    .banner .banner-content p{
+        font-size: 18px;
+    }
+    .banner .banner-content button{
+        font-size: 15px;
+        padding: 10px 40px;s
+    }
+    .description{
+        padding: 54px 0;
+    }
+    .description .col-md-12{
+        padding: 0;
+        margin-bottom: 0 !important;
+    }
+    .description .col-md-12 h1{
+        font-size: 65px;
+    }
+    .description .col-md-12 p{
+        font-size: 20px;
+        
+    }
+    .feature-1{
+        padding: 60px 0;
+    }
+    .feature-1-content{
+        padding: 30px 0;
+        text-align: center;
+    }
+    .feature-1-content button{
+        padding: 8px 49px;
+        font-size: 18px;
+    }
+    .feature-2{
+        padding: 50px 0;
+    }
+    .feature-2 .row{
+        height: auto;
+        align-items: none;
+        flex-direction: column-reverse;
+    
+    }
+    .feature-2-content h1{
+        font-size: 45px;
+    }
+    .feature-2-content{
+        padding: 63px 0px;
+        text-align: center;
+    }
+    .feature-2-content button{
+        padding: 9px 50px;
+        font-size: 18px;
+    }
+    .Statistics{
+        padding: 60px 0;
+    }
+    .Statistics .col-md-12 p{
+        padding: 0;
+        font-size: 17px;
+    }
+    .circle-item {
+        padding: 0;
+    }
+    .Statistics .col-md-4{
+        justify-content: center;
+        display: flex;
+    }
+    .Statistics .no-1{
+        margin-bottom: 30px;
+    }
+    .feature-3{
+        padding: 60px 0;
+    }
+    .feature-3 .col-md-12 h1{
+        font-size: 40px;
+    }
+    .feature-3 .package .col-md-4 .card{
+        margin-top: 52px;
+    }
+    .feature-3 .package .col-md-4{
+        padding: 0;
+    }
+    .feature-3 .package .col-md-4 .card-footer button{
+        padding: 8px 48px;
+        font-size: 17px;
+    }
+    .about-us{
+        padding: 40px 0;
+    }
+    .about-us .row{
+        height: auto;
+    }
+    .about-us p{
+        font-size: 25px;
+    }
+    .about-us h1{
+        font-size: 35px;
+        padding: 20px 0;
+    }
+    .subscribe{
+        padding: 60px 0;
+    }
+    .subscribe .row{
+        height: auto;
+        align-items: none;
+    }
+    .subscribe .content h1{
+        font-size: 28px;
+    }
+    .subscribe .content p{
+        font-size: 20px;
+        padding: 15px 0;
+    }
+    .subscribe .content form .email{
+        width: auto;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .subscribe .content form .submit{
+        height: 50px;
+        margin-top: 20px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .end-section{
+        padding: 60px 0;
+    }
+  }
